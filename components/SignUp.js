@@ -29,9 +29,7 @@ export default class SignUp extends ValidationComponent {
         await soundObject.loadAsync(require('../assets/ding2.mp3'));
         await soundObject.playAsync();
 
-        // Don't forget to unload the sound from memory
-        // when you are done using the Sound object
-        // await soundObject.unloadAsync();
+       
     } catch (error) {
         // An error occurred!
     }
